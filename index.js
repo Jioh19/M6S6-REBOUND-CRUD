@@ -81,6 +81,7 @@ const functionRead = async () => {
 			console.log(`- id: ${id}`);
 			console.log("");
 		}
+		console.log("Lectura exitosa");
 	} catch (err) {
 		console.log("Error en functionRead()");
 		console.error(err);
